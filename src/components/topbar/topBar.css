@@ -1,0 +1,52 @@
+.topBar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.topbarWraper {
+  height: 50px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: darkblue;
+  cursor: pointer;
+}
+.TopBarIconsContiner {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #555;
+}
+.topBarRight {
+  display: flex;
+  align-items: center;
+}
+.topIconBag {
+  width: 15px;
+  top: -5px;
+  right: 0px;
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  object-fit: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+.topbarAvata {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}

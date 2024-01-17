@@ -1,0 +1,51 @@
+.widgedLarge {
+  flex: 2;
+  box-shadow: -6px -9px 12px 7px rgba(232, 183, 132, 0.75);
+  -webkit-box-shadow: -6px -9px 12px 7px rgba(232, 183, 132, 0.75);
+  -moz-box-shadow: -6px -9px 12px 7px rgba(232, 183, 132, 0.75);
+  padding: 20px;
+}
+.wiglTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+.wiglTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+.wiglTh {
+  text-align: left;
+}
+.wigUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.wiglImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.wigLButton {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+.wigLButton.approved {
+  background-color: #e5faf2;
+  color: darkgreen;
+}
+.wigLButton.Declined {
+  background-color: #b9989a;
+  color: darkred;
+}
+.wigLButton.pending {
+  background-color: rgb(85, 114, 209);
+  color: darkblue;
+}
+.WiglDtae,
+.WiglAmount {
+  font-weight: 300;
+}
